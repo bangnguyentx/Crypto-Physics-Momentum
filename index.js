@@ -8,7 +8,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const moment = require('moment-timezone');
 const analysis = require('./analysis');
 
-const TELEGRAM_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '8322194930:AAEbemqNTWGAKoLwl23bwziKatEb6jx5ZIM';
+const TELEGRAM_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '8212584809:AAFNrTqYpjtJXc6bDib5SKhfbq4QWOjHJiY';
 const WEBHOOK_URL = process.env.WEBHOOK_URL || null; // set this to https://your-app.onrender.com when using webhook
 const PORT = parseInt(process.env.PORT || '3000', 10);
 
